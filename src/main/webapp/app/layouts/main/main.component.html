@@ -1,5 +1,6 @@
 <jhi-page-ribbon></jhi-page-ribbon>
-<div>
+<jhi-header></jhi-header>
+<div class="fixed-top">
     <router-outlet name="navbar"></router-outlet>
 </div>
 <div class="container-fluid">
@@ -7,5 +8,5 @@
         <router-outlet></router-outlet>
         <router-outlet name="popup"></router-outlet>
     </div>
-    <jhi-footer></jhi-footer>
 </div>
+<jhi-footer class="fixed-bottom"></jhi-footer>
